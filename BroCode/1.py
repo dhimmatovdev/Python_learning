@@ -25,4 +25,3 @@ for_sale = True
 #     print("You are a student")
 # else:
 #     print("You are NOT a student")
-if for_sale
