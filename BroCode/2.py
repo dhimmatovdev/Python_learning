@@ -11,7 +11,9 @@ is_student = True
 
 # age = str(age)
 # print(type(age))
-age = str(age)
-age += "1"
+# age = str(age)
+# age += "1"
 
-print(age)
+# print(age)
+name = bool(name)
+print(name)
