@@ -17,9 +17,12 @@ gpa = 4.9
 #boolean
 
 is_student = False
+for_sale = True
 
 # print(f"Are you a student?: {is_student}")
-if is_student:
+# if is_student:
+
 #     print("You are a student")
 # else:
 #     print("You are NOT a student")
+if for_sale
