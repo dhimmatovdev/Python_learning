@@ -22,3 +22,8 @@ friends = 10
 
 #  pow 
 # max result = max(x, y, z)
+
+radius = float(input())
+circumference = 2 * math.pi * radius
+
+print(f" {round(circumference, 2)} cm")
