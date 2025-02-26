@@ -1,3 +1,11 @@
+import math
+x = 5
+print(math.pi)
+print(math.e)
+
+result = math.sqrt(x)
+result = math.ceil(x)
+print(result)
 friends = 10
 #friends = friends + 1
 #friends += 1 # equal  
