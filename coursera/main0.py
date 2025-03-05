@@ -18,4 +18,8 @@
 # day = 19
 # print(day)
 print(1 + 1 + (2 * 3))
+y = 3.14
+x = len("hello")
+print(x)
+print(y)
 print(len("hello"))
