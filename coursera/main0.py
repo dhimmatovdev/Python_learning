@@ -12,3 +12,8 @@ day = "Friday"
 print(day)
 day = 21
 print(day)
+
+day = "Thursday"
+day = 32.5
+day = 19
+print(day)
