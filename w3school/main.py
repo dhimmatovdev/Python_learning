@@ -8,6 +8,7 @@
 
 # Global variables 
 
+
 x = "test"
 
 def myfunc():
