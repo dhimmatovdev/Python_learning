@@ -47,12 +47,27 @@
 
 # Optimal yechim
 
-def salom_ber(ism: str, yosh: int):
-    if yosh < 18:
-        return "Salom yosh dasturchi"
-    return f"Salom {ism}"
-if __name__ == "__main__":
-    ism = input("Ismingizni kiriting: ")
-    yosh = int(input("Yoshingizni kiriting: "))
+# def salom_ber(ism: str, yosh: int):
+#     if yosh < 18:
+#         return "Salom yosh dasturchi"
+#     return f"Salom {ism}"
+# if __name__ == "__main__":
+#     ism = input("Ismingizni kiriting: ")
+#     yosh = int(input("Yoshingizni kiriting: "))
 
-print(salom_ber(ism, yosh))
+# print(salom_ber(ism, yosh))
+
+# class Shaxs():
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#     def salom_ber(self):
+#         return f"Salom, mening ismim {self.name}, yoshim {self.age}"
+    
+# ism = input("Ism: ")
+# yosh = int(input("Yosh: "))
+# # Obyekt yaratish
+# shaxs = Shaxs(ism, yosh)
+
+# print(shaxs.salom_ber())
+
