@@ -95,3 +95,40 @@
 # print(talaba.talaba_info())
 # print("Baholar yig'indisi:", talaba.baho_yigindi())
 # print("O'rtacha baho:", round(talaba.ortacha_baho(), 2))
+
+class Hisob():
+    def __init__(self, ism, balans=0):
+        self.ism = ism
+        self.balans = balans
+    def pul_qoshish(self, miqdor):
+        if miqdor > 0:
+            self.balans += miqdor
+            print(f"{miqdor} so'm hisobga qo'shildi. ")
+        else:
+            print("Xato: Manfiy miqdor qo'shib bo'lmaydi. ")
+    def pul_yechish(self, miqdor):
+        if miqdor > self.balans:
+            print("Hisobda pul yo'q")
+        elif miqdor <= 0:
+            print("Xato kiritma! ")
+        else:
+            self.balans -=miqdor
+            print(f"{miqdor} so'm yechildi.")
+    def balansni_korish(self):
+        print(f"{self.ism} hisobida: {self.balans} so'm mavjud. ")
+
+
+
+    # Hisob ochish
+ism = input("Ismingizni kiriting: ")
+hisob = Hisob(ism)
+
+# Amal bajarish
+hisob.pul_qoshish(50000)
+hisob.balansni_korish()
+
+hisob.pul_yechish(20000)
+hisob.balansni_korish()
+
+hisob.pul_yechish(40000)  # yetarli mablag' yo'q
+hisob.balansni_korish()
