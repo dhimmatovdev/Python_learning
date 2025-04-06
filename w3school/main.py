@@ -71,3 +71,27 @@
 
 # print(shaxs.salom_ber())
 
+# 4 masala
+# class Talabalar():
+#     def __init__(self, ism, facultet, baholar):
+#         self.ism = ism
+#         self.facultet = facultet
+#         self.baholar = baholar
+#     def talaba_info(self):
+#         return f"Talaba ismini kiriting: {self.ism}, Fakultet: {self.facultet}"
+#     def ortacha_baho(self):
+#         return sum(self.baholar) / len(self.baholar)
+#     def baho_yigindi(self):
+#         return sum(self.baholar)
+    
+
+# ism = input("Talaba ismini kiriting: ")
+# fac = input("Fakultetni kiriting: ")
+
+# baholar = list(map(int, input("Baholarni kiriting (masalan: 5 4 3): ").split()))
+
+# talaba = Talabalar(ism, fac, baholar)
+
+# print(talaba.talaba_info())
+# print("Baholar yig'indisi:", talaba.baho_yigindi())
+# print("O'rtacha baho:", round(talaba.ortacha_baho(), 2))
