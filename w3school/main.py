@@ -139,5 +139,3 @@ import json
 json_text = '{"ismi": "Ali", "yoshi": "22", "dasturchi": true}'
 malumot = json.loads(json_text)
 print(malumot["dasturchi"])
-# name = Alexia Tressie
-# email = alexiatr@ti-i4.skd.21-school.uz
