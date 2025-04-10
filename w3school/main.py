@@ -132,10 +132,19 @@
 
 # hisob.pul_yechish(40000)  # yetarli mablag' yo'q
 # hisob.balansni_korish()
-import json 
-# malumot = {"ismi":"Ali", "yoshi":"22", "dasturchi":True}
-# json_str = json.dumps(malumot)
-# print(json_str)
-json_text = '{"ismi": "Ali", "yoshi": "22", "dasturchi": true}'
-malumot = json.loads(json_text)
-print(malumot["dasturchi"])
+# import json 
+# # malumot = {"ismi":"Ali", "yoshi":"22", "dasturchi":True}
+# # json_str = json.dumps(malumot)
+# # print(json_str)
+# json_text = '{"ismi": "Ali", "yoshi": "22", "dasturchi": true}'
+# malumot = json.loads(json_text)
+# print(malumot["dasturchi"])
+# import json
+# # filega yozish
+
+# # data = {"ismi": "Ali", "yoshi":21}
+# # with open("ismlar.json", "w") as f:
+# #     json.dump(data, f)
+# with open("ismlar.json") as f:
+#     data = json.load(f)
+#     print(data["yoshi"])
